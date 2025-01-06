@@ -24,6 +24,6 @@ contract Storage {
      * @return value of 'number'
      */
     function retrieve() public view returns (uint256){
-        return number;
+             return number;
     }
 }
