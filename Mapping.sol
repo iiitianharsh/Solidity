@@ -22,7 +22,7 @@ contract MappingExamples {
     }
     mapping(address => UserProfile) public userProfiles;
 
-    // Add a value to the balances mapping
+    // Add a value to the balances mapping -> adding
     function setBalance(address user, uint256 amount) public {
         balances[user] = amount; // Sets the balance for the user
     }
