@@ -22,4 +22,8 @@ contract Storage {
     function retrieve() public view returns (uint256){
              return number;
     }
+    // I am chaning these lineess
+    function retirve() public view returns (uint256){
+        return number;
+    }
 }
