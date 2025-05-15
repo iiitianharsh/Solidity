@@ -65,7 +65,8 @@ contract MappingExamples {
     // Example 5: Using mappings for counters
     // Tracks the number of transactions a user has made
     mapping(address => uint256) public transactionCount;
-
+    mapping(address => uint104) private intGiven;
+    
     function incrementTransactionCount(address user) public {
         transactionCount[user] += 1; // Increment the transaction count for the user
     }
@@ -73,6 +74,7 @@ contract MappingExamples {
     function getTransactionCount(address user) public view returns (uint256) {
         return transactionCount[user];
     }
+        mapping(address => uint104) private intGiven;
 
     // Example 6: Complex usage - Nested mappings with additional logic
     // Tracks votes for candidates in different elections
